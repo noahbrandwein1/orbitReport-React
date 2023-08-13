@@ -1,4 +1,5 @@
 import React from 'react';
+import './styling.css'
 
 const Buttons = ({ filterByType, setSat, displaySats, satData }) => {
   return (

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import satData from './components/satData';
 import Banner from "./components/Banner";
 import Buttons from "./components/Buttons";
@@ -14,7 +14,7 @@ function App() {
     const filteredSats = satData.filter((newSatDisplay) => {
       return newSatDisplay.orbitType === currentType;
     });
-    setSat(filteredSats);
+    setSat(displaySats);
   };
 
 
