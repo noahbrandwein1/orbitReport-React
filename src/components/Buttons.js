@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
-const Buttons = ({ filterByType, setSat, displaySats }) => {
+const Buttons = ({ filterByType, setSat, displaySats, satData }) => {
   return (
-    <div>
+    <div className="flex-container">
       {displaySats.map((sat, id) => (
         <button onClick={() => filterByType(sat)} key={id}>
           {sat} Orbit

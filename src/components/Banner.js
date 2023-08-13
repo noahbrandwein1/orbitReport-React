@@ -1,3 +1,6 @@
+import React from 'react'
+import './styling.css'
+
 function Banner() {
     return (
         <header>
