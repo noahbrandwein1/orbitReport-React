@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import satData from './satData';
+import satData from './components/satData';
 import Banner from "./components/Banner";
 import Buttons from "./components/Buttons";
 import Table from "./components/Table";
