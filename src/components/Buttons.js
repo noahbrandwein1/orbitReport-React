@@ -1,5 +1,6 @@
 import React from 'react';
 import './styling.css'
+import satData from './satData';
 
 const Buttons = ({ filterByType, setSat, displaySats, satData }) => {
   return (
@@ -9,7 +10,7 @@ const Buttons = ({ filterByType, setSat, displaySats, satData }) => {
           {sat} Orbit
         </button>
       ))}
-      <button onClick={() => setSat(satData)}>All Satellites</button>
+      <button onClick={() => setSat(satData)}>All Orbit</button>
     </div>
   );
 };
