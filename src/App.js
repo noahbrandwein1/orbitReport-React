@@ -23,7 +23,8 @@ function App() {
       <Banner />
       <Buttons filterByType={filterByType}
         setSat={setSat}
-        displaySats={displaySats} />
+        displaySats={displaySats} 
+      />
       <Table sat={sat}/>
     </div>
   );
